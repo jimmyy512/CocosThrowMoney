@@ -1,0 +1,45 @@
+coin.png
+	size: 707, 51
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+1
+	bounds: 2, 2, 46, 47
+10
+	bounds: 617, 2, 22, 47
+11
+	bounds: 663, 2, 15, 47
+12
+	bounds: 696, 2, 9, 47
+13
+	bounds: 680, 2, 14, 47
+14
+	bounds: 641, 2, 20, 47
+15
+	bounds: 559, 2, 27, 47
+16
+	bounds: 491, 2, 32, 47
+17
+	bounds: 413, 2, 37, 47
+18
+	bounds: 328, 2, 41, 47
+19
+	bounds: 192, 2, 44, 47
+2
+	bounds: 50, 2, 46, 47
+20
+	bounds: 98, 2, 45, 47
+3
+	bounds: 145, 2, 45, 47
+4
+	bounds: 238, 2, 44, 47
+5
+	bounds: 284, 2, 42, 47
+6
+	bounds: 371, 2, 40, 47
+7
+	bounds: 452, 2, 37, 47
+8
+	bounds: 525, 2, 32, 47
+9
+	bounds: 588, 2, 27, 47

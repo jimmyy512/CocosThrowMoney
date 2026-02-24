@@ -185,7 +185,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 455.0366492146597,
+    "_orthoHeight": 540,
     "_near": 0,
     "_far": 2000,
     "_color": {
@@ -277,7 +277,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 155.60540739528795,
+      "width": 155.625,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -310,7 +310,7 @@
     "_string": "Example",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 59.6875,
+    "_actualFontSize": 40,
     "_fontSize": 40,
     "_fontFamily": "Arial",
     "_lineHeight": 80,
@@ -473,7 +473,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Coin_ske",
+    "_name": "coin",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -493,7 +493,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 0,
+      "y": -643.606,
       "z": 0
     },
     "_lrot": {
@@ -517,7 +517,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": "55fbqtAstFY6qi+ATcR1+L"
+    "_id": "7f4/NAA6xCzq1iIydDESuX"
   },
   {
     "__type__": "cc.UITransform",
@@ -531,18 +531,18 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 92.06999969482422,
+      "height": 94.05999755859375
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
+      "x": 0.49994568189277927,
       "y": 0.5
     },
-    "_id": "01/NiUTItC0oOhBQxlspI5"
+    "_id": "07nIU7T1xBp7Z1dZJL56nj"
   },
   {
-    "__type__": "dragonBones.ArmatureDisplay",
+    "__type__": "sp.Skeleton",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -561,27 +561,24 @@
       "b": 255,
       "a": 255
     },
-    "playTimes": -1,
-    "premultipliedAlpha": false,
-    "_defaultArmatureIndexValue": 0,
-    "_dragonAsset": {
-      "__uuid__": "093452e3-5fe0-4880-963e-9d5889eac788",
-      "__expectedType__": "dragonBones.DragonBonesAsset"
+    "_skeletonData": {
+      "__uuid__": "f06f106c-4da2-402f-8f82-72412e17618a",
+      "__expectedType__": "sp.SkeletonData"
     },
-    "_dragonAtlasAsset": {
-      "__uuid__": "269f7c68-3b67-4657-979a-fde8da0f52d0",
-      "__expectedType__": "dragonBones.DragonBonesAtlasAsset"
-    },
-    "_armatureName": "Coin",
-    "_animationName": "",
-    "_animationIndexValue": 0,
-    "_defaultCacheModeValue": 0,
+    "defaultSkin": "default",
+    "defaultAnimation": "",
+    "_premultipliedAlpha": true,
     "_timeScale": 1,
-    "_playTimes": -1,
-    "_debugBones": false,
-    "_enableBatch": false,
+    "_preCacheMode": 0,
+    "_cacheMode": 0,
     "_sockets": [],
-    "_id": "4aThS0tndBSp4zMWUzlNKB"
+    "_useTint": false,
+    "_debugMesh": false,
+    "_debugBones": false,
+    "_debugSlots": false,
+    "_enableBatch": false,
+    "loop": true,
+    "_id": "87YSARyTFCz5npSLgUtDKc"
   },
   {
     "__type__": "cc.UITransform",
@@ -615,7 +612,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "coinArmature": {
+    "coinSkeleton": {
       "__id__": 13
     },
     "moneyRoot": {
@@ -771,7 +768,7 @@
     "_string": "顯示",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 29.84375,
+    "_actualFontSize": 20,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -1083,7 +1080,7 @@
     "_string": "隱藏",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 29.84375,
+    "_actualFontSize": 20,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
